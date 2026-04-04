@@ -1,1 +1,47 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.header__menu-list{
+display: flex;
+gap: 40px;
+list-style-type: circle;
+font-weight: 400;
+font-size: 18px;
+font-style: normal;
+}
+
+.header__logo-image {
+  width: 100%;
+  height: auto;
+  width: 130px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+ justify-self: end;
+ width: 240px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+}
+
+.cover {
+
+}
+
+.description {
+
+}
+
+.lots {
+
+}
+
+.about {
+  
+}
